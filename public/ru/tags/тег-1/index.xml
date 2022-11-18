@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Тег-1 on Anubis</title>
+    <link>https://example.com/ru/tags/%D1%82%D0%B5%D0%B3-1/</link>
+    <description>Anubis (Тег-1)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Nov 2022 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://example.com/ru/tags/%D1%82%D0%B5%D0%B3-1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Крутой пост</title>
+      <link>https://example.com/ru/post/cool-post/cool-post/</link>
+      <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/ru/post/cool-post/cool-post/</guid>
+      <description>&lt;p&gt;Пост&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

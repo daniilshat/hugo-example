@@ -1,0 +1,88 @@
+baseURL = "https://daniilshat.github.io/hugo-example"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Anubis"
+theme = "anubis"
+paginate = 3
+
+publishDir = "docs"
+
+disqusShortname = ""
+googleAnalytics = ""
+
+[author]
+name = "Dmitry Kolosov"
+
+[params]
+author = "Dmitry Kolosov"
+description = "Anubis is a simple minimalist theme for Hugo blog engine."
+dateFormat = "2006-01-02"
+paginationSinglePost = true
+style = "auto"
+readMore = false
+readNextPosts = 2
+copyCodeButton = true
+rssAsSocialIcon = true
+
+# utteranc.es support
+utterancesRepo = ""  # mandatory
+utterancesTheme = "" # optional
+utterancesIssue = "" # optional
+utterancesLabel = "" # optional
+  
+[[params.social]]
+id = "docs"
+url = "https://gohugo.io/documentation/"
+
+[[params.social]]
+id = "github"
+url = "https://github.com/mitrichius/hugo-theme-anubis"
+
+[languages.en]
+languageName = "English"
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 1
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 2
+
+[[menu.main]]
+name = "Archive"
+identifier = "archive"
+url = "/posts/"
+weight = 3
+
+[languages.ru]
+languageName = "Русский"
+
+[[languages.ru.menu.main]]
+identifier = "about"
+name = "Обо мне"
+url = "/about/"
+weight = 1
+
+[[languages.ru.menu.main]]
+identifier = "Теги"
+name = "Теги"
+url = "/tags/"
+weight = 2
+
+[[languages.ru.menu.main]]
+identifier = "archive"
+name = "Архив"
+url = "/posts/"
+weight = 3
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[markup.goldmark.renderer]
+unsafe = true
